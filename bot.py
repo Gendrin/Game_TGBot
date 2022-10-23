@@ -1,8 +1,8 @@
 from time import sleep as s
-
-import config
-import telebot
-from telebot import types
+from isOdd as odd
+# import config
+# import telebot
+# from telebot import types
 
 bot = telebot.TeleBot(config.TOKEN)
 print('Готов к работе...')
